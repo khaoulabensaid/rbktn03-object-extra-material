@@ -11,7 +11,24 @@
 //        color: 'Yellow',
 //  }
 
+{firstName: 'Yan', lastName: 'Fan' }
+ {a: 1, b:2 c: 3, d: 4}
+ {
+        animal: 'dog',
+        noise: 'bark',
+        age: 3,
+        type: 'Golden Retriever',
+        color: 'Yellow'
+ }
+
 // 2. Create an object that represents you. It should contain your first name, last name, age and hometown. Assign it to a variable called person.
+
+var person = {
+ 	firstName: 'khaoula',
+ 	lastName: 'ben said',
+ 	age: 25 ,
+    hometown : 'sousse'
+ 	 };
 
 // 3.Add three more key/value pairs to your object that represent other attributes of yourself. Ideas include (but are not limited to):
 //  Favorite TV Shows/Movies/Sports/Activities etc.
@@ -19,7 +36,23 @@
 //  Date of Birth
 //  Place of Birth
 
+person["favourite sports"] = "tennis";
+person["favourite book"] = "pocketful of sand";
+person.family = "five members";
+
+
 // 4.Change your object to have a single name key, the value of which is an object – this object should have first, last and middle keys containing your first, last, and middle names respectively.
+
+var person = {
+	identity : {
+		firstname: 'khaoula',
+ 	    lastname: 'ben said',
+ 	    age: 25 ,
+ 	    hometown : 'sousse'
+	}
+};
+
+
 
 // 5.Look up something you want to buy on souq.com, and make an object that represents information about the item:
 //  Item Name
@@ -27,6 +60,16 @@
 //  Year released
 //  Rating
 //  Price
+
+var obj = {
+   Item Name: 'sneakers',
+   Category/Type: 'running shoes',
+   YearReleased: 2019,
+   Rating: 10,
+   Price: '342.000DT'
+};
+
+
 
 // 6.in the console,Create a new empty object in your console called obj like this:
 // var obj = {};
